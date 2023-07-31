@@ -78,7 +78,7 @@ class TestMemoize(unittest.TestCase):
                 """
                 return self.a_method()
 
-        
+
         with patch.object(
                 TestClass,
                 'a_method',
