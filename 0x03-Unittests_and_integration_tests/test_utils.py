@@ -5,7 +5,7 @@ Unittests for the utils.access_nested_map function
 import unittest
 from parameterized import parameterized, parameterized_class
 from unittest.mock import Mock, patch
-from utils import access_nested_map, get_json, requests
+from utils import access_nested_map, get_json, memoize, requests
 from typing import Dict
 
 
